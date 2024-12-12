@@ -1,5 +1,6 @@
 package com.example.shop.security;
 
+import com.example.shop.entities.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
