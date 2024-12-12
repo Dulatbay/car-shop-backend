@@ -36,13 +36,12 @@ import java.util.List;
         ),
         servers = {
                 @Server(
+                        description = "PROD ENV",
+                        url = "http://34.47.217.147:8080/api"
+                ),
+                @Server(
                         description = "Local ENV",
                         url = "http://localhost:8080/api"),
-
-                @Server(
-                        description = "PROD ENV",
-                        url = ""
-                )
         },
         security = {
                 @SecurityRequirement(
