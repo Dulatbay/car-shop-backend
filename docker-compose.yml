@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: qqanly/car-spring-boot:latest
+    image: qqanly/front-final-spring-boot:latest
     container_name: car-spring-boot
     ports:
       - "8080:8080"

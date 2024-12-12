@@ -3,9 +3,13 @@ spring:
     name: KzH
   data:
     mongodb:
-      uri: ${MONGODB_URI:mongodb://user_qit:123@localhost:27017}
-      database: kzh
+      uri: ${MONGODB_URI:mongodb://user_qit:123@car-mongo:27017}
+      database: car-shop
       auto-index-creation: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
 
 application:
   security:

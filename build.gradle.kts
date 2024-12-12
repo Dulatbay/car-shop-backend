@@ -1,6 +1,6 @@
 plugins {
     java
-    id("org.springframework.boot") version "3.4.0"
+    id("org.springframework.boot") version "3.3.0"
     id("io.spring.dependency-management") version "1.1.6"
 }
 
@@ -36,6 +36,7 @@ dependencies {
     implementation("jakarta.validation:jakarta.validation-api:3.0.2")
     implementation("aspectj:aspectjrt:1.5.4")
 
+    implementation("commons-io:commons-io:2.1")
     implementation("org.mapstruct:mapstruct:1.5.2.Final")
     annotationProcessor("org.mapstruct:mapstruct-processor:1.5.2.Final")
     implementation("org.springframework.boot:spring-boot-starter-validation")
@@ -43,6 +44,7 @@ dependencies {
     implementation("io.jsonwebtoken:jjwt-impl:0.11.5")
     implementation("io.jsonwebtoken:jjwt-jackson:0.11.5")
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0")
+
 }
 
 tasks.withType<Test> {

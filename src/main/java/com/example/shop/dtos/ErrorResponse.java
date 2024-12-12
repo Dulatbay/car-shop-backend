@@ -4,7 +4,6 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
-import static com.example.kzh.constants.ValueConstants.ZONE_ID;
 import static com.example.shop.constants.ValueConstants.ZONE_ID;
 
 @Data
